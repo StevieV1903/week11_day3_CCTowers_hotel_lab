@@ -29,4 +29,12 @@ public class Hotel {
     public void checkInGuest(Bedroom bedroom, Guest guest) {
         bedroom.addGuestToBedroomAsRoomGuest(guest);
     }
+
+//    public void createNewRoomBooking(int numberOfNights, Bedroom bedroom, Guest guest) { {
+//            this.numberOfNights = numberOfNights;
+//            this.bedroom = bedroom;
+//            this.guest = guest;
+//        }
+//        Booking obj=new Booking(numberOfNights, bedroom, guest);
+    }
 }
