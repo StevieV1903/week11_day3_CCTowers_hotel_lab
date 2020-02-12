@@ -4,7 +4,7 @@ public class ConferenceRoom {
 
     private int conferenceRoomCapacity;
     private String conferenceRoomName;
-    private ArrayList<Guest> conferenceGuests;
+            ArrayList<Guest> conferenceGuests;
 
     public ConferenceRoom(int conferenceRoomCapacity, String conferenceRoomName){
         this.conferenceRoomCapacity = conferenceRoomCapacity;
